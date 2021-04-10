@@ -1,11 +1,22 @@
 {
-  "posts": [
+  "tickets": [
     {
       "id": 1,
-      "title": "hello"
+      "userId": 1,
+      "validity_period_within": false,
+      "valid": false
+    },
+    {
+      "id": 2,
+      "userId": 2,
+      "validity_period_within": true,
+      "valid": true
+    },
+    {
+      "id": 3,
+      "userId": 3,
+      "validity_period_within": true,
+      "valid": false
     }
-  ],
-  "profile": {
-    "name": "typicode"
-  }
+  ]
 }
