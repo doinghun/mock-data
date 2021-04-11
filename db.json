@@ -2,21 +2,38 @@
   "tickets": [
     {
       "id": 1,
-      "userId": 1,
+      "userId": 123,
       "validity_period_within": false,
-      "valid": false
+      "valid": false,
+      "payment_method": "cash"
     },
     {
       "id": 2,
-      "userId": 2,
+      "userId": 123,
       "validity_period_within": true,
-      "valid": true
+      "valid": true,
+       "payment_method": "cash"
     },
     {
       "id": 3,
-      "userId": 3,
+      "userId": 123,
       "validity_period_within": true,
-      "valid": false
+      "valid": true,
+       "payment_method": "card"
+    },
+    {
+      "id": 3,
+      "userId": 123,
+      "validity_period_within": true,
+      "valid": true,
+      "payment_method": "grabpay"
+    },
+    {
+      "id": 4,
+      "userId": 123,
+      "validity_period_within": true,
+      "valid": false,
+       "payment_method": "cash"
     }
   ]
 }
