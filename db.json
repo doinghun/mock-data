@@ -1,39 +1,54 @@
 {
-  "tickets": [
+  "cases": [
     {
       "id": 1,
-      "userId": 123,
+      "user_id": "user_123",
+      "order_id": "order_456",
       "validity_period_within": false,
-      "valid": false,
-      "payment_method": "cash"
+      "case_result": false,
+      "payment_method": "cash",
+      "nps_score": 2,
+      "case_status": "open"
     },
     {
       "id": 2,
-      "userId": 123,
+      "user_id": "user_123",
+      "order_id": "order_456",
       "validity_period_within": true,
-      "valid": true,
-       "payment_method": "cash"
+      "case_result": true,
+      "payment_method": "cash",
+      "nps_score": 2,
+      "case_status": "open"
     },
     {
       "id": 3,
-      "userId": 123,
+      "user_id": "user_123",
+      "order_id": "order_456",
       "validity_period_within": true,
-      "valid": true,
-       "payment_method": "card"
+      "case_result": true,
+      "payment_method": "card",
+      "nps_score": 2,
+      "case_status": "open"
     },
     {
       "id": 3,
-      "userId": 123,
+      "user_id": "user_123",
+      "order_id": "order_456",
       "validity_period_within": true,
-      "valid": true,
-      "payment_method": "grabpay"
+      "case_result": true,
+      "payment_method": "grabpay",
+      "nps_score": 2,
+      "case": "open"
     },
     {
       "id": 4,
-      "userId": 123,
+      "user_id": "user_123",
+      "order_id": "order_456",
       "validity_period_within": true,
-      "valid": false,
-       "payment_method": "cash"
+      "case_result": false,
+      "payment_method": "cash",
+      "nps_score": 2,
+      "case_status": "open"
     }
   ]
 }
