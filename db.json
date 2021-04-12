@@ -50,5 +50,14 @@
       "nps_score": 2,
       "case_status": "open"
     }
-  ]
+  ],
+  "investigations": [
+    {
+      "id": 1,
+      "case_id": "case_1",
+      "user_id": "user_123",
+      "order_id": "order_456",
+      "case_result": "no_refund",
+    }
+   ]
 }
