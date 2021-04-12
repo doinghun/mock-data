@@ -5,7 +5,7 @@
       "user_id": "user_123",
       "order_id": "order_456",
       "validity_period_within": false,
-      "case_result": false,
+      "case_result": "no_refund",
       "payment_method": "cash",
       "nps_score": 2,
       "case_status": "open"
@@ -15,7 +15,7 @@
       "user_id": "user_123",
       "order_id": "order_456",
       "validity_period_within": true,
-      "case_result": true,
+      "case_result": "refund",
       "payment_method": "cash",
       "nps_score": 2,
       "case_status": "open"
@@ -25,7 +25,7 @@
       "user_id": "user_123",
       "order_id": "order_456",
       "validity_period_within": true,
-      "case_result": true,
+      "case_result": "refund",
       "payment_method": "card",
       "nps_score": 2,
       "case_status": "open"
@@ -35,7 +35,7 @@
       "user_id": "user_123",
       "order_id": "order_456",
       "validity_period_within": true,
-      "case_result": true,
+      "case_result": "refund",
       "payment_method": "grabpay",
       "nps_score": 2,
       "case": "open"
@@ -45,7 +45,7 @@
       "user_id": "user_123",
       "order_id": "order_456",
       "validity_period_within": true,
-      "case_result": false,
+      "case_result": "no_refund",
       "payment_method": "cash",
       "nps_score": 2,
       "case_status": "open"
